@@ -13,3 +13,6 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t sepsis-demo .
+
+      - name: Run Docker container
+        run: docker run sepsis-demo
